@@ -1,12 +1,224 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Пинк</title>
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Пинк</title>
+</head>
+<body>
+<div class="container">
+  <header class="header">
+    <div class="row">
+      <div class="col-3">
+        <a href="index.html" class="logo"><img src="" alt="" class="logo__img"></a>
+      </div>
+      <div class="col-9">
+        <nav>
+          <ul class="menu">
+            <li class="menu__item"><a href="index.html" class="menu__link">Главная</a></li>
+            <li class="menu__item"><a href="photo.html" class="menu__link">Фотографии</a></li>
+            <li class="menu__item"><a href="form.html" class="menu__link">Конкурс</a></li>
+            <li class="menu__item"><a href="" class="menu__link">HTML Academy</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="main">
+      <div class="main__wrapper">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+            <p class="h1 main__title">Взгляните на жизнь
+              иначе!</p>
+            <a href="" class="btn main__btn">Скачать приложение</a>
+            <ul class="main__icon">
+              <li class="icon__item"><img src="" alt="" class="icon__img"></li>
+              <li class="icon__item"><img src="" alt="" class="icon__img"></li>
+              <li class="icon__item"><img src="" alt="" class="icon__img"></li>
+            </ul>
+            <p class="main__text text-center">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-8">
+            <div class="main__img">
+              <img src="" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <p class="h1 text-center">Устали от серости мегаполиса?</p>
+      <p class="h1 text-center">Нам есть, что вам
+        предложить!</p>
+      <div class="row">
+        <section class="col-12 col-lg-4">
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
+          <div class="section-item active">
+            <img src="..." alt="...">
+            <div class="section-caption d-none d-md-block">
+              <h3>Поднимает настроение</h3>
+              <p>Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+            </div>
+          </div>
+        </section>
+        <section class="col-12 col-lg-4">
+          <div class="section-item">
+            <img src="..." alt="...">
+            <div class="section-caption d-none d-md-block">
+              <h3>Меняет мир вокруг</h3>
+              <p>
+                Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+            </div>
+          </div>
+        </section>
+        <section class="col-12 col-lg-4">
+          <div class="section-item">
+            <img src="..." alt="...">
+            <div class="section-caption d-none d-md-block">
+              <h3>Заводит новых друзей</h3>
+              <p>
+                Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+            </div>
+          </div>
+        </section>
+      </div>
 
-  </body>
+      <div class="section__content">
+        <h2 class="section__title">Эффект на&nbsp;24&nbsp;часа!</h2>
+        <p class="section__text">Британские учёные провели исследования и&nbsp;доказали, что положительный эффект от&nbsp;использования
+          приложения длится целые сутки!</p>
+        <a class="base-link" href="">Узнать больше об&nbsp;исследовании</a>
+      </div>
+    </div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="section-caption d-none d-md-block">
+            <h3>Николай Петров</h3>
+            <p class="text-center bold">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные
+              серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="section-caption d-none d-md-block">
+            <h3>Николай Петров</h3>
+            <p class="text-center bold">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные
+              серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="section-caption d-none d-md-block">
+            <h3>Николай Петров</h3>
+            <p class="text-center bold">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные
+              серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <section class="price">
+      <table class="price-table">
+        <tr>
+          <td class="price-table__header price-table__header--empty"></td>
+          <td class="price-table__header">
+            <div class="price-table__flag">Хит</div>
+            <p class="price-table__title">База</p>
+            <p class="price-table__cost">1,99 USD</p>
+          </td>
+          <td class="price-table__header">
+            <div class="price-table__flag price-table__flag--hit">Хит</div>
+            <p class="price-table__title">Стандарт</p>
+            <p class="price-table__cost">3,99 USD</p>
+          </td>
+          <td class="price-table__header">
+            <div class="price-table__flag">Хит</div>
+            <p class="price-table__title">Анлим</p>
+            <p class="price-table__cost">9,99 USD</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="price-table__service price-table__service--tablet">Розовый фильтр</td>
+          <td class="price-table__service price-table__service--yes"><span class="service-mobile">Розовый фильтр</span></td>
+          <td class="price-table__service price-table__service--yes"><span class="service-mobile">Розовый фильтр</span></td>
+          <td class="price-table__service price-table__service--yes"><span class="service-mobile">Розовый фильтр</span></td>
+        </tr>
+
+        <tr>
+          <td class="price-table__service price-table__service--tablet">Смайлики</td>
+          <td class="price-table__service price-table__service--no"><span class="service-mobile">Смайлики</span></td>
+          <td class="price-table__service price-table__service--yes"><span class="service-mobile">Смайлики</span></td>
+          <td class="price-table__service price-table__service--yes"><span class="service-mobile">Смайлики</span></td>
+        </tr>
+
+        <tr>
+          <td class="price-table__service price-table__service--tablet">Комментарии</td>
+          <td class="price-table__service price-table__service--no"><span class="service-mobile">Комментарии</span></td>
+          <td class="price-table__service price-table__service--no"><span class="service-mobile">Комментарии</span></td>
+          <td class="price-table__service price-table__service--yes"><span class="service-mobile">Комментарии</span></td>
+        </tr>
+      </table>
+
+      <div class="slider-pagination slider-pagination--price">
+        <a class="slider-pagination__control" href=""></a>
+        <a class="slider-pagination__control slider-pagination__control--active" href=""></a>
+        <a class="slider-pagination__control" href=""></a>
+      </div>
+    </section>
+
+    <div class="contacts">
+      <div class="contacts__container">
+        <h1 class="contacts__heading">Остались вопросы? Свяжитесь с нами!</h1>
+        <div class="contacts-items">
+          <div class="contacts-item">
+            <h2 class="contacts-item__title">Звоните:</h2>
+            <a href="tel:+78125556666" class="contacts-item__contact">+7 (812) 555-66-66</a>
+          </div>
+          <div class="contacts-item contacts-item--mail">
+            <h2 class="contacts-item__title">Пишите:</h2>
+            <a href="mailto:mail@htmlacademy.ru" class="contacts-item__contact contacts-item__contact--mail">mail@htmlacademy.ru</a>
+          </div>
+          <div class="contacts-item">
+            <h2 class="contacts-item__title">Приезжайте в гости:</h2>
+            <address class="contacts-item__contact">ул. Большая Конюшенная, 19/8</address>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+<div class="page">
+  <footer class="page-footer page-footer--main-page">
+    <div class="page-footer__container">
+      <a class="page-footer__logo" href="index.html">
+
+      </a>
+      <section class="social-links">
+        <a class="social-link social-link--twitter" href="#">Twitter</a>
+        <a class="social-link social-link--facebook" href="#">Facebook</a>
+        <a class="social-link social-link--youtube" href="#">Youtube</a>
+      </section>
+      <section class="copyright">
+        <p class="copyright__text">Разработано <a class="copyright__link" target="_blank" href="https://htmlacademy.ru/">
+          <img src="" alt="">
+        </a></p>
+      </section>
+    </div>
+  </footer>
+</div>
+</div>
+</body>
 </html>
